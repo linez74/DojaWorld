@@ -58,7 +58,7 @@ body{
 }
 
 .cowpic{
-    background-image: url('file:///C:/Users/Linly/Desktop/Web/webimg/cow.gif'), url('file:///C:/Users/Linly/Desktop/Web/webimg/cow.gif');
+    background-image: url('webimg/cow.gif'), url('webimg/cow.gif');
     background-repeat: repeat-y, repeat-y;
     background-position: left, right;
     background-attachment: fixed;
