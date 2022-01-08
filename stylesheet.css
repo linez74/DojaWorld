@@ -23,6 +23,12 @@ html{
     list-style-type: none;
 }
 
+#ffs{
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
 #nav1 a{
     margin-left: 10px;
 }
