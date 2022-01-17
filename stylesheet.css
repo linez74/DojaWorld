@@ -226,7 +226,9 @@ footer{
     font-size: larger;
 }
 
-
+.nn:visited{
+    color:palevioletred;
+}
 .pp{
     display:none;
     vertical-align: middle;
