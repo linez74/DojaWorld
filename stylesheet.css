@@ -229,6 +229,7 @@ footer{
 .nn:visited{
     color:palevioletred;
 }
+
 .pp{
     display:none;
     vertical-align: middle;
@@ -339,6 +340,15 @@ footer{
 .info{
     padding-left: 680px;
     font: italic small-caps 12px Verdana ,sans-serif; 
+}
+
+#pass:focus, #user:focus{
+    background-color: rgba(216, 112, 147, 0.747);
+}
+
+#submit{
+    background-color:palevioletred;
+    color:wheat;
 }
 
 .ina{
