@@ -388,9 +388,14 @@ footer{
 }
 
 @media (max-width:500px) {
-    #imgh, #insta, #fb, #ytb{
-       width:70%;
+    #insta, #fb, #ytb{
+       width:40%;
        height: 50%;
+    }
+
+    #imgh{
+        width: 80%;
+        height: 90%;
     }
 
 }
