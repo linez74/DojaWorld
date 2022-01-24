@@ -147,8 +147,9 @@ body{
 }
 
 #imgh{
-    margin-left: 419px;
-    margin-right: auto;
+    /* margin-left: 419px;
+    margin-right: auto; */
+    margin:auto;
     width: 35%;
     height: 70%; 
     display:block;
@@ -161,7 +162,7 @@ body{
 
 #con{
     float: left;
-    margin-left : 640px;
+    margin: auto;
 }
 
 #srtb{
@@ -357,4 +358,31 @@ footer{
     color: rgb(63, 60, 60);
     text-decoration: underline;
     padding-top: 10px;
+}
+
+/* Responsive : */
+
+#indexcontainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr;
+    grid-template-areas: 
+    "sit"
+    "figindex"
+    "con";
+}
+
+#sit{
+    grid-area: sit;
+    align-items: baseline;
+}
+
+#figindex{
+    grid-area: figindex;
+    place-self: center;
+    
+}
+
+#con{
+    grid-area: con;
 }
