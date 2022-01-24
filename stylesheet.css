@@ -386,3 +386,11 @@ footer{
 #con{
     grid-area: con;
 }
+
+@media (max-width:500px) {
+    #imgh, #insta, #fb, #ytb{
+       width:70%;
+       height: 50%;
+    }
+
+}
