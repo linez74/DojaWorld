@@ -2,15 +2,17 @@
 <html>
 <link href="stylesheet.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <head>
     <title>DojaCat Music</title>
     <link rel="icon" type="image/x-icon" href="webimg/favicon.png">
     <style>
-        td:first-child{
+        td:first-child {
             cursor: pointer;
         }
-        td:first-child:hover{
-            color:rgb(214, 122, 177);
+
+        td:first-child:hover {
+            color: rgb(214, 122, 177);
         }
     </style>
 </head>
@@ -18,15 +20,16 @@
 </html>
 
 <body>
-    <nav id="niv" style="z-index: 1;">
-        <ul id="Navbar">
-            <li id="ffs"><a href="Index.html"> <img src="webimg/favicon.png" width="30" height="30"/> </a></li>
-            <li id="nav1"> <a href="main.html" >Home</a></li>
-            <li id="nav2"><a href="music.html" >Music</a></li>
-            <li id="nav3"><a href="fashion.html" >Fashion</a></li>
-            <li id="nav4"><a href="forum.html" >Forum</a></li>
-        </ul>
-    </nav>
+    <div class="topnav" id="myTopnav">
+        <a href="Index.html"> <img src="webimg/favicon.png" width="30" height="30" /> </a>
+        <a href="main.html">Home</a>
+        <a href="music.html">Music</a>
+        <a href="fashion.html">Fashion</a>
+        <a href="forum.html">Forum</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            Menu
+        </a>
+    </div>
     <div id="cgt">
         <label class="Verdana" id="gt" for="Glitter">Let's Moo!</label>
         <input type="checkbox" id="Glitter" onclick="background()">
@@ -42,82 +45,80 @@
             <th>ALBUM</th>
         </tr>
         <tr>
-            <td onclick="PL('SoHigh')" >So High</td>
+            <td onclick="PL('SoHigh')">So High</td>
             <td>2014</td>
             <td><i>Purrr!</i></td>
         </tr>
         <tr>
-            <td onclick="PL('GoToTown')" >Go To Town</td>
+            <td onclick="PL('GoToTown')">Go To Town</td>
             <td rowspan="4">2018</td>
             <td rowspan="4"><i>Amala</i></td>
         </tr>
         <tr>
-            <td onclick="PL('Candy')" >Candy</td>
+            <td onclick="PL('Candy')">Candy</td>
         </tr>
         <tr>
-            <td onclick="PL('MOO')" >Mooo!</td>
+            <td onclick="PL('MOO')">Mooo!</td>
         </tr>
         <tr>
-            <td onclick="PL('TiaTamera')" >Tia Tamera</td>
+            <td onclick="PL('TiaTamera')">Tia Tamera</td>
         </tr>
         <tr>
-            <td onclick="PL('Juicy')" >Juicy</td>
+            <td onclick="PL('Juicy')">Juicy</td>
             <td rowspan="4">2019</td>
             <td rowspan="5"><i>Hot Pink</i></td>
         </tr>
         <tr>
-            <td onclick="PL('Bott')" >Bottom Bitch</td>
+            <td onclick="PL('Bott')">Bottom Bitch</td>
         </tr>
         <tr>
-            <td onclick="PL('Rules')" >Rules</td>
+            <td onclick="PL('Rules')">Rules</td>
         </tr>
         <tr>
-            <td onclick="PL('Cyber')" >Cyber Sex</td>
+            <td onclick="PL('Cyber')">Cyber Sex</td>
         </tr>
         <tr>
-            <td onclick="PL('SaySo')" >Say So</td>
+            <td onclick="PL('SaySo')">Say So</td>
             <td rowspan="5">2020</td>
         </tr>
         <tr>
-            <td onclick="PL('BB')" >Boss Bitch</td>
+            <td onclick="PL('BB')">Boss Bitch</td>
             <td><i>Birds of Prey:The Album</i></td>
         </tr>
         <tr>
-            <td onclick="PL('LikeThat')" >Like That</td>
+            <td onclick="PL('LikeThat')">Like That</td>
             <td><i>Hot Pink</i></td>
         </tr>
         <tr>
-            <td onclick="PL('Del')" >Del Mar</td>
+            <td onclick="PL('Del')">Del Mar</td>
             <td><i>ENOC</i></td>
         </tr>
         <Tr>
-            <td onclick="PL('Streets')" >Streets</td>
+            <td onclick="PL('Streets')">Streets</td>
             <td><i>Hot Pink</i></td>
         </Tr>
         <tr>
-            <td onclick="PL('Kiss')" >Kiss Me More</td>
+            <td onclick="PL('Kiss')">Kiss Me More</td>
             <td rowspan="4">2021</td>
             <td rowspan="4">Planet Her</td>
         </tr>
         <tr>
-            <td onclick="PL('you')" >You Right</td>
+            <td onclick="PL('you')">You Right</td>
         </tr>
         <tr>
-            <td onclick="PL('need')" >Need To Know</td>
+            <td onclick="PL('need')">Need To Know</td>
         </tr>
         <tr>
-            <td onclick="PL('Woman')" >Woman</td>
+            <td onclick="PL('Woman')">Woman</td>
         </tr>
 
     </table>
 
 
-    <div style="box-shadow: plum; border: 1px dotted black; width:685px; margin: 25px auto; ">
+    <div style="box-shadow: plum; border: 1px dotted black;  margin: 25px auto; ">
         <p style="text-align: center; font-size: bold;"><em>Click on Song Title to Play/Pause Song</em> </p>
     </div>
-    <div style="margin-bottom: 85px;">
-    </div>
-    <footer>
+    <footer class="foot">
         <p>Website Made by Line</p>
         <p>All Content is fully copyrighted by Doja Cat</p>
         <p>This is a pure Fan-Made Website with no intention of selling copyrighted content </p>
